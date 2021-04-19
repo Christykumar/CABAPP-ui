@@ -5,7 +5,8 @@
 <title>CAR TYPE</title>
 </head>
 <body>
-	<h1>CAR TYPE</h1>
+	<h1 style="color:red">CAR TYPE</h1>
+	<form action=Bookingtime.html>
 	<table border="5">
 		<thead>
 			<tr>
@@ -14,29 +15,26 @@
 				<th>Price per kilometer</th>
 			</tr>
 		</thead>
-		<br />
 		<tbody>
 			<tr>
 				<th>1</th>
 				<th>MICRO</th>
 				<th>Rs.10 per kilometer</th>
 			</tr>
-			<br />
 			<tr>
 				<th>2</th>
 				<th>MINI</th>
 				<th>Rs.15 per kilometer</th>
 			</tr>
-			<br />
 			<tr>
 				<th>3</th>
 				<th>PRIME</th>
 				<th>Rs.20 per kilometer</th>
 			</tr>
-			<br />
 		</tbody>
 	</table>
-	<br />
+	<br/>
+	<br/>
 	<lable>Select CAB type:</lable>
 	<select name="Cartype" required>
 		<option disabled> --Select Car type--</option>
@@ -47,7 +45,8 @@
 	<br />
 	<br />
 	<lable for="kilometers">Enter the travel kilometers:</lable>
-	<input type="number" name="kilometers"required><br />
-	<br />
+	<input type="number" name="kilometers" id="KilometersTravel" required><br />
+	<button>Submit</button>
+	</form>
 </body>
 </html>
